@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define inic ios_base::sync_with_stdio(false)
+#define inic1 cin.tie(NULL)
+#define inic2 cout.tie(NULL)
+#define sl '\n'
+typedef long long ll;
+
+int main() {
+    inic;
+    inic1;
+    inic2;
+    int t;
+    cin >> t;
+    while(t--) {
+        int n, x, e;
+        cin >> n >> x;
+        int sum = 0;
+        for(int i = 0; i< n; i++) {
+            cin >> e; 
+            sum += e;
+        }
+
+        if(sum == x * n) cout << "YES" << sl;
+        else cout << "NO" << sl;
+        
+    }
+    return 0;
+}
