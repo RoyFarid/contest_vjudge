@@ -36,7 +36,7 @@ int main() {
         }
 
         for(auto x : a) {
-            cout << a << ""
+            cout << x << "";
         }
         vector <ll> cants;
         ll cant= 1;
