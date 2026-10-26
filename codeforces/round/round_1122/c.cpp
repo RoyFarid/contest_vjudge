@@ -22,7 +22,7 @@ int main() {
         }
         int ans = n + 1;
         if(s[0] == '1') {
-            cout << n - 1 - (n - 1) << sl;
+            cout << n - 1 - (c1 - 1) << sl;
             continue; 
         }
         for(int i = 0; i < n; i++) {
